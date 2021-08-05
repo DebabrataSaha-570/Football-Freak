@@ -8,13 +8,52 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.fas{
+    margin: 0 8px;
+}
+
+/*--------------- 
+    header styles
+----------------- */
+header{
+    background-color:  #2D25A0;
+    /* height: 677px; */
+    padding-bottom: 50px;
+}
+
+.btn-football{
+    width: 168px;
+}
+.football{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1164px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.first-football-part h1{
+    font-size: 64px;
+    margin: 0;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.first-football-part button{
+    margin-top: 27px;
+}
+
+.second-football-part img{
+    width: 556.01px;
+}
+
+
+
 
 
 /*-----------
  nav styles 
 -------------*/
 nav{
-    background-color:  #2D25A0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +75,6 @@ nav a{
 }
 .btn{
     background-color: #E02C6D;
-    width: 123px;
 height: 44px;
 padding: 10px 24px;
 color: #FFFFFF;
@@ -44,6 +82,12 @@ font-size: 16px;
 font-weight: 500;
 border: none;
 cursor: pointer;
+/* text-align: center; */
+display: flex;
+align-items: center;
+}
+.btn-nav{
+    width: 123px;
 }
 .btn:hover{
     transform: scale(1.3);
@@ -56,9 +100,3 @@ cursor: pointer;
 }
 
 
-/*--------------- 
-    header styles
------------------ */
-header{
-    background-color:  #2D25A0;
-}
