@@ -155,3 +155,22 @@ align-items: center;
     margin: 0;
     font-weight: 700;
 }
+
+
+/*----------------- 
+    footer styles 
+------------------- */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer img{
+    width: 483.27px;
+    /* width: 300px; */
+}
+footer  a{
+    text-decoration: none;
+    color: black;
+}
