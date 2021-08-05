@@ -174,3 +174,88 @@ footer  a{
     text-decoration: none;
     color: black;
 }
+
+
+/* ----------------- 
+    subscribe styles 
+------------------ */
+.subscribe{
+    text-align: center;
+    padding: 5rem 1rem;
+    /* background-color: #F2F2F2; */
+    width: 1164px;
+    margin: 0 auto;
+}
+.subscribe h3{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+}
+.subscribe p{
+    width: 60rem;
+    margin: 2rem auto;
+}
+
+.subscribe form{
+    /* display: flex; */
+  /* display: flex;
+  align-items: center; */
+    /* max-width: 70rem; */
+    /* border: .2rem solid #fff; */
+    /* padding: .5rem; */
+    /* border-radius: 5rem; */
+    /* margin: 2rem auto; */
+    /* height: 2rem; */
+    /* flex-direction: column; */
+}
+.subscribe form input{
+    /* padding: 0 2rem;
+    font-size: 1.7rem;
+    background: none;
+    width: 100%;
+    color: gray;
+    border-radius: 5rem;
+    text-transform: none; */
+
+}
+.subscribe form input::placeholder{
+    /* color: white; */
+}
+.subscribe form input:focus{
+    outline: none;
+}
+
+
+/*----------------
+ contact Us styles 
+-------------------*/
+.contact-us h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.contact-us{
+    width: 1164px;
+    margin: 0 auto;
+}
+.contact-us .first-input{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  
+}
+.contact-us input{
+    margin-bottom: 2rem;
+}
+.contact-us .second-input{
+    display: flex;
+    flex-direction: column;
+}
+form input, textarea{
+    padding: .5rem;
+    font-size: .9rem;
+}
+.button-div{
+    text-align: center;
+}
