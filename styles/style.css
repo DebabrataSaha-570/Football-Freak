@@ -110,6 +110,7 @@ align-items: center;
     grid-column-gap: 27px;
     width: 1164px;
     margin: 0 auto;
+    margin-top: 70px;
     margin-bottom: 165px;
     /* overflow: hidden; */
 }
@@ -117,7 +118,9 @@ align-items: center;
 .player{
     width: 330px;
     height: 474px;
-    padding: 15px;
+    /* padding: 15px; */
+    padding-bottom: 15px;
+    cursor: pointer;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
    
 }
@@ -125,11 +128,25 @@ align-items: center;
     /* transform: scale(1.3); */
   
 }
+.player-img-div{
+    text-align: center;
+    padding-top: 10px;
+    
+}
 .player img{
     width: 300px;
     height: 256px ;
+   
 
 }
+.player-text{
+     padding: 15px;;
+     
+}
+.player-text h3{
+    margin: 0;
+}
+
 
 
 
