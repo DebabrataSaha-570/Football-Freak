@@ -4,6 +4,9 @@
 /* ----------------
     common styles
 ----------------- */
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -260,7 +263,7 @@ footer .socials{
     text-align: center;
 }
 .contact-us{
-    width: 1100x;
+    width: 1100px;
     margin: 130px auto;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 30px 80px;
